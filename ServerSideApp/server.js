@@ -4,13 +4,14 @@ const cors = require("cors");
 
 const {RankingController} = require("./Controllers/rankController");
 const {getwordslistController} = require("./Controllers/wordsController");
+// instance of express 
+const app = express()
 
 //library of parsing body data
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
-// instance of express 
-const app = express()
+
 
 
 //enableing use by angular app (middleware applied on all routes)

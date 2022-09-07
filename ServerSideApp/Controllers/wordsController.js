@@ -1,6 +1,6 @@
 const {GetRandomWords} = require("../service/wordsService");
 
-/ cintroller to be run when request is sent to /practice
+// controller to be run when request is sent to practice
 const getwordslistController = async (req , res)=>{
 
     let TotalRequiredLenth =10;

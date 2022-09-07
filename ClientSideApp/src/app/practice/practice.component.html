@@ -1,0 +1,23 @@
+<mat-stepper class="wordstepper" [linear]="isLinear" #stepper>
+  <mat-step *ngFor="let word of words; index as wordIndex"   [stepControl]="firstFormGroup" [editable]="isEditable">
+      <form class="wordsform"[formGroup]="firstFormGroup">
+
+          <div class="mat-headline">{{word}}</div>
+
+          <div class="ButtonsGroup">
+            <button mat-raised-button color="primary" matStepperNext value="Adverb" (click)="checkAnswer(0 ,wordIndex)">Adverb</button>
+            <button mat-raised-button color="primary" matStepperNext value="Adjective" (click)="checkAnswer(1 ,wordIndex)">Adjective</button>
+            <button mat-raised-button color="primary" matStepperNext value="noun" (click)="checkAnswer(2,wordIndex)">noun</button>
+            <button mat-raised-button color="primary" matStepperNext value="verb" (click)="checkAnswer(3,wordIndex)">verb</button>
+          </div>
+      </form>
+      <div class="progressBar">
+        <h3>Answered questions : {{progress}}%</h3>
+        <mat-progress-bar mode="determinate" [value]="progress"></mat-progress-bar>
+
+      </div>
+
+  </mat-step>
+
+</mat-stepper>
+

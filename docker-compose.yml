@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  serverside:
+    image: "node:16.17.0"
+    
+    ports:
+      - 3000:3000  
+  clientapp:
+    build: ./ClientSideApp
+    volumes:
+      - './ClientSideApp:/usr/src/app'
+    ports:
+      - 4201:4200
+    depends_on:
+      - serverside

@@ -1,0 +1,21 @@
+::ng-deep .mat-horizontal-stepper-header{
+  pointer-events: none !important;
+}
+
+.wordsform >*{
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 60%;
+  height: 40%;
+  text-align: center;
+}
+
+.progressBar{
+  margin-top: 15%;
+  text-align: center;
+}
+
+.ButtonsGroup >*{
+  margin-left: 2px;
+  margin-right: 2px;
+}

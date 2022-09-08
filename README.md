@@ -14,13 +14,16 @@
     - open this link in browser (http://localhost:4200/)
     
 ## TEST :
-  - practice screen will be shown and you can choose answer by clicking the relevant button
+  - practice screen will be shown and you can choose answer by clicking the relevant button.
+   ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/practiceView-progressBar.PNG)
   - Once you click the button a feedback Dialoge will show and a sound alert will be played based on correctivity of your answer.
+  ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/CorrectAnswerCase.PNG)
+  ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/wrongAnswerCase.PNG)
   - After finithing questins you will be redirected to (/rank) screen.
+  ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/ranlScreen.PNG)
   - You Can see the following Demo Video to help use it.
+
+[![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/practiceView-progressBar.PNG)](https://drive.google.com/file/d/1KMAaKO4jjoQRB2jRmSdIa-RHSLbORwUC/view?usp=sharing)
+
   
-  <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/practiceView-progressBar.PNGg">
-    <source src="https://drive.google.com/file/d/1KMAaKO4jjoQRB2jRmSdIa-RHSLbORwUC/view?usp=sharing" type="video/mp4">
-  </video>
-</figure>
+  

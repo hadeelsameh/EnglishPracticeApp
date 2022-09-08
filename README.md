@@ -19,7 +19,7 @@
   - After finithing questins you will be redirected to (/rank) screen.
   - You Can see the following Demo Video to help use it.
   <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="path/to/video.mp4" type="video/mp4">
+  <video controls="true" allowfullscreen="true" poster="https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/practiceView-progressBar.PNGg">
+    <source src="https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/English_practice_app_Demo.mp4" type="video/mp4">
   </video>
 </figure>

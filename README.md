@@ -21,7 +21,7 @@
   ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/wrongAnswerCase.PNG)
   - After finithing questins you will be redirected to (/rank) screen.
   ![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/ranlScreen.PNG)
-  - You Can see the following Demo Video to help use it.
+  - You Can see the following Demo Video (by clicking the following img) to help use it.
 
 [![alt text](https://github.com/hadeelsameh/EnglishPracticeApp/blob/main/TestResults/practiceView-progressBar.PNG)](https://drive.google.com/file/d/1KMAaKO4jjoQRB2jRmSdIa-RHSLbORwUC/view?usp=sharing)
 

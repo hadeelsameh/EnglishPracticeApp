@@ -7,13 +7,6 @@ services:
       - './ServerSideApp:/usr/src/app'
     ports:
       - 3000:3000
-  clientapp:
-    build: ./ClientSideApp
-    volumes:
-      - './ClientSideApp:/usr/src/app'
-    ports:
-       - 4200:4200
-    depends_on:
-       - serverside
+  
     
     
